@@ -10,7 +10,26 @@
   <!-- Bootstrap -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="login_style.css">
   <link href="css/style.css" rel="stylesheet">  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+  <style>
+    .button {
+        background-color: #008CBA;;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: left;
+    }
+
+  </style>
     <script>
     $('#myModal1').on('shown.bs.modal', function () {
         $('#myInput').focus()
@@ -21,6 +40,8 @@
     $('#myModal3').on('shown.bs.modal', function () {
         $('#myInput').focus()
     });
+
+   
 </script>
 </head>
 <body>  
@@ -67,16 +88,47 @@
       </div><!-- /.container-fluid -->
     </nav>
   </header>
-
+  
   <div class="panel panel-primary">
         <div class="panel-heading" align="center">
             <font size="6">Internet of Things / Internet of Everythings</font>
         </div>
+        
         <div class="panel-body">
-            <font size="4">
-                This page is still under construction
-            </font>
-            
+              <!-- <button class="button">Button</button> -->
+            <div style = "text-align: center; margin-left: 10%; margin-right: 10%">
+                <button id="show_login" class="button" >White Paper</button>
+                <!-- <button id="myBtn2" class="button" >No</button> -->
+                
+                <div style = "display: inline-block; text-align: left; float: left;">
+                    <div id = "loginform">
+                        <form method = "post" action = "dologin.php">
+                          <center>
+                         <p>Download White Paper Modal</p>
+                         <!-- <button id = "close_login">cancel</button> -->
+                         <input type = "text" id = "fname" name = "fname" placeholder = "First Name">
+                         <input type = "text" id = "lname" name = "lname" placeholder = "Last Name">
+                         <input type = "email" id = "login" placeholder = "Email" name = "uid">
+                         <input type = "submit" id = "dologin" value = "Download">
+                         <input type= "button" id = "close_login" value = "Cancel">
+                        </center>
+                        </form>
+                    </div>
+                    <font size="4">
+                        <b>Gartner defines Internet of Things "is the network of physical objects that contain </br>
+                        embedded technology to communicate and sense or interact with their internal</br>
+                        states or the external environment."</br>
+                        As per International Data Corporation (IDC) press release "The Internet of Things Is</br>
+                        Posed to Change Everything", The Internet of Things (IoT) represents a new</br>
+                        construct in the information and communications technology (ICT) world that is</br>
+                        occupying the minds of IT vendors, service providers, and systems integrators as it</br>
+                        represents huge potential for new streams of revenue and new customers.</b>
+                    </font>
+                </div>
+            </div>
+        </div>
+  </div>     
+  
   <footer class="container-fluid">
         <div class="row">
           <aside class="col-md-3">
