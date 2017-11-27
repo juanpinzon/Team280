@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <!-- mata tag below make the page responsive on mobile devices-->
@@ -9,103 +10,183 @@
   <title>Template</title>
   <!-- Bootstrap -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">  
-  <link href="css/style.css" rel="stylesheet">  
-    <script>
+  <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script>
     $('#myModal1').on('shown.bs.modal', function () {
-        $('#myInput').focus()
+      $('#myInput').focus()
     });
     $('#myModal2').on('shown.bs.modal', function () {
-        $('#myInput').focus()
+      $('#myInput').focus()
     });
     $('#myModal3').on('shown.bs.modal', function () {
-        $('#myInput').focus()
+      $('#myInput').focus()
     });
-</script>
+  </script>
 </head>
-<body>  
-  
-  <header >
+
+<body>
+
+  <header>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="js-header">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="nav navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#top"><img class="" src="images/logo.png" /></a>
+          <a href="index.html">
+            <img class="" src="images/logo.png" />
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>  
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+            </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span> Products <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span> Products
+                <span class="caret"></span>
+              </a>
               <ul class="dropdown-menu">
-                    <li><a href="mobile.html"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Mobile</a></li>
-                    <li><a href="bigdata.html"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Big Data</a></li>
-                    <li><a href="iot.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> IoE/IoT</a></li>
+                <li>
+                  <a href="mobile.html">
+                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Mobile</a>
+                </li>
+                <li>
+                  <a href="bigdata.html">
+                    <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Big Data</a>
+                </li>
+                <li>
+                  <a href="iot.html">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> IoE/IoT</a>
+                </li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Us <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Us
+                <span class="caret"></span>
+              </a>
               <ul class="dropdown-menu">
-                    <li><a href="management.html"><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Management</a></li>
-                    <li><a href="codeofconduct.html"> <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Code of Conduct</a></li>
-                    <li><a href="businessprocess.html"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Business Process</a></li>
-                    <li><a href="locations.html"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Locations</a></li>
-                    <li><a href="contacts.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contacts</a></li>               
+                <li>
+                  <a href="management.html">
+                    <span class="glyphicon glyphicon-king" aria-hidden="true"></span> Management</a>
+                </li>
+                <li>
+                  <a href="codeofconduct.html">
+                    <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Code of Conduct</a>
+                </li>
+                <li>
+                  <a href="businessprocess.html">
+                    <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Business Process</a>
+                </li>
+                <li>
+                  <a href="locations.html">
+                    <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Locations</a>
+                </li>
+                <li>
+                  <a href="contacts.html">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contacts</a>
+                </li>
               </ul>
             </li>
-            <li><a href="blog.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a></li>                
+            <li>
+              <a href="blog.html">
+                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a>
+            </li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
     </nav>
   </header>
 
   <div class="panel panel-primary">
-        <div class="panel-heading" align="center">
-            <font size="6">Business Process</font>
+    <div class="panel-heading" align="center">
+      <font size="6">Business Process</font>
+    </div>
+    <div class="bp-body">
+      <font size="4">
+        <br>
+        <center>The business process of our company follow closely with the diagram shown below </center>
+        <br>
+        <br>
+        <br>
+        <center>
+          <img src="images/business_process.jpg" alt="Business Process">
+        </center>
+        <br>
+        <br>
+        <h3>
+          <strong>1. Design</strong>
+        </h3>
+        We are thrive to bringing the best design from our top talents, as well as customers input.
+        <h3>
+          <strong>2. Modeling</strong>
+        </h3>
+        Once the design is accepted, modeling will followed to fit the needs of customers.
+        <h3>
+          <strong>3. Execution</strong>
+        </h3>
+        Execution follow as the beginning of implementation phase. The process will continue until the project is ready to launch.
+        <h3>
+          <strong>4. Monitoring</strong>
+        </h3>
+        The next step is monitoring to make sure every functionality behaves as expected.
+        <h3>
+          <strong>5. Optimization</strong>
+        </h3>
+        Process can always be faster and better. That's why we are always optimizing it for your better experience.
+        <h3>
+          <strong>6. Re-Engineering</strong>
+        </h3>
+        Re-engineer as needed to implement the optimization for better performance.
+        <h3>
+          <strong>7. Discovery</strong>
+        </h3>
+        The discovery never stops. The cycle will continue again and again.
+        <br>
+        <br>
+        <br>
+      </font>
+      </font>
+    </div>
+    <footer class="container-fluid">
+      <div class="row">
+        <aside class="col-md-3">
+          <img src="images/sjsu.png" alt="sjsu" class="img-responsive" />
+        </aside>
+        <div class="col-md-9">
+          <a class="twitter-timeline" href="https://twitter.com/technews_today" data-height="100" data-width="500" data-chrome="nofooter norborders transparent noscrollbar"
+            data-link-color="#820bbb" data-border-color="#a80000">
+            Tweets by technews_today</a>
         </div>
-        <div class="panel-body">
-            <font size="4">
-                This page is still under construction
-            </font>
-            
-  <footer class="container-fluid">
-        <div class="row">
-          <aside class="col-md-3">
-            <img src="images/sjsu.png" alt="sjsu" class="img-responsive" />
-          </aside>
-          <div class="col-md-9">
-            <a class="twitter-timeline" 
-               href="https://twitter.com/technews_today"             
-               data-height="100"
-               data-width="500"
-               data-chrome= "nofooter norborders transparent noscrollbar"
-               data-link-color="#820bbb"
-               data-border-color="#a80000">
-               Tweets by technews_today</a> 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p id="copyright">Copyright © <script type="text/javascript">
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p id="copyright">Copyright ©
+            <script type="text/javascript">
               var d = new Date()
               document.write(d.getFullYear())
-              </script> · CMPE 280 - Team Assignment · All Rights Reserved </p>
-          </div>
-        </div>        
-      </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/myscript.js"></script>  
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </body>
-    </html>
+            </script> · CMPE 280 - Team Assignment · All Rights Reserved </p>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/myscript.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
