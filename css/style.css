@@ -30,6 +30,20 @@ footer {
   padding-right: 20px;
 }
 
+#map1 {  
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  background-color: white;
+}
+
+#map2 {  
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  background-color: white;
+}
+
 
 #thisCarousel {
   padding: 40px;
@@ -238,6 +252,17 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+.panel-primary {
+  border: none;
+}
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
+#mainContainer {
+  padding-bottom: 20px;
+}
 
